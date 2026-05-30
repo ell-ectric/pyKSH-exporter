@@ -13,6 +13,10 @@ Convert your KSH files into VOX format, export supporting assets, all in one pla
 
 ## Requirements
 
+The program needs ffmpeg to be installed and available in your path at runtime for any audio tasks.
+
+Python dependencies are as follows:
+
 - Python >= 3.10.10
 - DearPyGui >= 1.9.0
 - Tcl/Tk >= 8.6
