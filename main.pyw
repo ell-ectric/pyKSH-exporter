@@ -865,7 +865,7 @@ class KSH2VOXApp:
 
             self.log(f'Writing to "{file_path}"...')
             self.current_path = Path(file_path).parent
-            with open(file_path, "w") as f:
+            with open(file_path, "w", encoding='utf-8') as f:
                 self.song_chart_data.write_xml(f)
 
             self.log(f"File saved: {file_name}")
